@@ -1,9 +1,11 @@
 body.light {
+    font-family: Bauhaus, Arial;
     background-color: #ffffff;
     color: #000000;
 }
 
 body.dark {
+    font-family: Bauhaus, Arial;
     background-color: #000000;
     color: #ffffff;
 }
@@ -32,4 +34,8 @@ form {
 
 .hidden {
     display: none;
+}
+button {
+    border-radius: 40px;
+    background-color: #BBEEFF;
 }
