@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>QR Code Scanner</h1>
+        <button id="toggle-theme">Toggle Theme</button>
+        <div id="scanner"></div>
+        <button id="btn-scan">Scan QR Code</button>
+
+        <form id="form-add">
+            <input type="text" id="input-string" placeholder="String Value" required>
+            <input type="number" id="input-num1" placeholder="Numeric Value 1" required>
+            <input type="number" id="input-num2" placeholder="Numeric Value 2" required>
+            <button type="submit">Add</button>
+        </form>
+
+        <div id="result">
+            <h2>Result</h2>
+            <p>String: <span id="result-string"></span></p>
+            <p>Num1: <span id="result-num1"></span></p>
+            <p>Num2: <span id="result-num2"></span></p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode/minified/html5-qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
